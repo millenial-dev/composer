@@ -1,7 +1,9 @@
 <?php
-class ArrayLinkException extends Exception { }
-class TypeFileException extends Exception { }
-class SaveFileException extends Exception { }
+namespace millenial\createsitemap;
+
+class ArrayLinkException extends \Exception { }
+class TypeFileException extends \Exception { }
+class SaveFileException extends \Exception { }
 
 class CreateSiteMap{
     private $array_link;
