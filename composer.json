@@ -1,0 +1,21 @@
+{
+    "name": "millenial/createsitemap",
+    "description": "Create SiteMap XML JSON CSV",
+    "type": "library",
+    "require": {
+        "php": "^7.4"
+    },
+    "license": "BSD-3-Clause",
+    "autoload": {
+        "psr-4": {
+            "Millenial\\Createsitemap\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "valentin kopylov",
+            "email": "89006406370@mail.ru"
+        }
+    ],
+    "minimum-stability": "dev"
+}
